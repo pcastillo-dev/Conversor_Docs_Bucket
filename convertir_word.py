@@ -1,3 +1,4 @@
+# Este programa es para convertir de .doc a .docx
 import os
 import win32com.client
 
@@ -34,5 +35,5 @@ def convertir_doc_a_docx(directorio):
     print(f"✅ ¡Listo! Se convirtieron {convertidos} archivos al formato moderno.")
 
 # Pon la ruta de tu carpeta
-ruta_archivos = r"C:\Users\pcast\OneDrive\Desktop\docs_legales_bucket"
+ruta_archivos = r"C:\Users\pcast\OneDrive\Desktop\proyecto_leyes\pdfs_originales\Codigos_Civiles_Penales_ProcedimientosCiviles_ESTATALES\Baja_California_Sur"
 convertir_doc_a_docx(ruta_archivos)

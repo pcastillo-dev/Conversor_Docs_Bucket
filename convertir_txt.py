@@ -1,7 +1,8 @@
+# Este programa es para convertir de .md a .txt
 import os
 
 # La carpeta donde tienes tus archivos .md terminados
-directorio = r"C:\Users\pcast\OneDrive\Desktop\bucket_limpio\Códigos_Civiles_Penales_ProcedimientosCiviles_ESTATALES\Zacatecas"
+directorio = r"C:\Users\pcast\OneDrive\Desktop\bucket_limpio"
 
 convertidos = 0
 
